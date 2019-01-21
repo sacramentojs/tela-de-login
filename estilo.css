@@ -1,0 +1,61 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #428a89 url(imagens/sem.jpg) no-repeat top center ;
+}
+
+#container{
+	width: 400px;
+	height: 300px;
+	background-color: rgb(41,41,41, 0.7);
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 120px;
+	text-align: center;
+}
+
+#container img{
+	width: 110px;
+	height: 110px;
+	margin: -50px;
+	margin-bottom: 30px;
+
+}
+
+input{
+	height: 40px;
+	width: 80%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding-left: 40px;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+input.email{
+	background-image: url(imagens/2.png);
+}
+
+input.senha{
+	background-image: url(imagens/4.png);
+}
+
+input.submit{
+	color: #fff;
+	background-color: #42d389;
+	border: 2px solid #292929;
+	padding: 5px 20px;
+	height: 45px;
+	width: 90%;
+
+
+     background: -webkit-linear-gradient(to bottom, #55eb92, #55eb92);
+	background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+	background: linear-gradient(to bottom, #55eb92, #55eb92);
+
+
+}
